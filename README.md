@@ -1,1 +1,1 @@
-# TECHIN510_FinalProject
+# TECHIN510_DesignGenerator
