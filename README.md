@@ -1,4 +1,4 @@
-# TECHIN510_DesignGenerator
+# TECHIN510_TattooGenerator
 
 ## Project objectives
 - To design and develop a web application that generates custom tattoo designs based on user preferences, keywords, and style choices.
