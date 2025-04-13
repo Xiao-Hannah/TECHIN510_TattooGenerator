@@ -1,12 +1,9 @@
 # TECHIN510_TattooGenerator
 
-## Project objectives
-- To design and develop a web application that generates custom tattoo designs based on user preferences, keywords, and style choices.
-- To provide a visually rich and interactive interface for users to preview, download, or save tattoo designs.
-- To enable inspiration through browsing, personalization, and optional sharing.
-- To explore generative AI or design algorithms for dynamic tattoo creation.
+## Project Overview
+Tattoo Generator is a web-based application that allows users to generate personalized tattoo designs by uploading an image or entering a short prompt. The platform uses generative AI to create visually compelling, high-resolution tattoo options that users can preview and download. This tool is ideal for anyone exploring tattoo ideas, seeking inspiration, or visualizing a tattoo concept based on mood boards, aesthetic references, or personal style.
 
-## Target users and their needs
+## Target Users & Needs
 Users: 
 - Individuals exploring tattoo ideas (first-timers or repeat clients).
 - Tattoo enthusiasts seeking inspiration.
@@ -18,26 +15,68 @@ Need:
 - Ability to save, download, or share designs for future reference or to take to a tattoo artist.
 - Optional inspiration browsing from a community gallery or trending ideas.
 
-## Key deliverables
-- A responsive web application with:
-    - A form or input interface to gather design preferences.
-    - A design generation engine (using either prebuilt assets, generative AI, or parametric design).
-    - A design preview page with download or save options.
-    - An optional gallery or community inspiration board.
-- Backend database (if needed) to store saved or shared designs.
-- Clean and modern UI/UX focusing on artistic aesthetics and simplicity.
-- Documentation and user guide.
-- Deployed live version and source code repository.
+## Project Objectives
+- To design and develop a web application that generates custom tattoo designs based on user preferences, keywords, and style choices.
+- To provide a visually rich and interactive interface for users to preview, download, or save tattoo designs.
+- To enable inspiration through browsing, personalization, and optional sharing.
+- To explore generative AI or design algorithms for dynamic tattoo creation.
 
+## Core Features
+In Scope:
+1. Image Upload as Input:
+- Users can upload a reference picture as tattoo inspiration.
+- Encouraged to upload clear, non-abstract images to help guide the generation.
+2. Concrete Tattoo Generation
+- Use an API (most likely Midjourney) to generate one concrete tattoo design per input.
+- Leverage a pre-trained model or fine-tuned model for generating tattoo-style artwork.
+3. Tattoo Preview & Download
+- Allow users to preview the generated tattoo on-screen.
+- Provide options to download the tattoo image for personal use or printing.
 
-## Special constraints (e.g., regulatory compliance)
-- Copyright & Licensing: Ensure generated images are original, open-license, or user-owned to avoid copyright infringement.
-- AI Integration (If Used): Adhere to platform policies for AI-generated content (e.g., OpenAI, StabilityAI).
-- Content Moderation: If sharing designs or browsing others’ ideas, implement filters or moderation tools to prevent inappropriate content.
-- Accessibility: Design UI with inclusive features (contrast, font sizes, keyboard navigation).
+Nice to Have:
+1. Multiple Tattoo Variants from One prompt
+- Increase the number of tattoos generated per upload (e.g. 3–5 variations).
+- Give users more options to choose from.
+2. Style-Based Categorization
+- Classify generated tattoos into recognizable styles (e.g. minimal, tribal, neo-traditional, fine line).
+- Users can toggle between styles before generating, or filter results after generation.
 
 ## Expected outcome
 - A fully functional web app where users can input preferences and receive personalized tattoo design suggestions.
 - Users can interact with generated designs, preview placements, and save or share them.
-- The app encourages exploration of tattoo art and supports both individuals and artists in the design process.
 - A user-friendly, aesthetic platform that sparks creativity and enhances the tattoo planning experience.
+
+## Timeline
+Week 1: Planning & Research
+Finalize feature scope and technical requirements.
+Research suitable GenAI APIs.
+Sketch out UI wireframes and user flow.
+
+Week 2: Backend Setup & API Integration
+Set up a backend environment.
+Implement image upload and validation.
+Connect to image generation API and test with prompts.
+
+Week 3: Frontend Development
+Build basic frontend for uploading images, displaying previews, and downloading tattoos.
+
+Week 4: Improve Generation Quality
+Refine prompt templates for consistent tattoo aesthetics.
+Add upload handling for bad inputs or edge cases.
+
+Week 5: Nice-to-Have Features (Time Permitting)
+Enable multiple tattoo variations.
+Add basic style categorization or filters.
+
+Week 6: Testing, Optimization, & Polish
+End-to-end testing of user flow.
+Optimize performance and finalize UI.
+
+Week 7–8: Beta Testing & Iteration (Optional)
+Share with test users for feedback.
+Polish UX and address bugs.
+
+## Contact information of the team
+- Product Manager/ Client: Laura Tan, xtan0611@uw.edu
+- Developer: Hannah Xiao, hx2313@uw.edu
+
