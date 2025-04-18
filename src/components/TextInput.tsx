@@ -16,16 +16,9 @@ const TextInput: React.FC<Props> = ({ value, onChange }) => {
       onChange={(e) => onChange(e.target.value)}
       placeholder="Describe your tattoo idea..."
       margin="normal"
-      InputProps={{
-        style: {
-          backgroundColor: "#1e1e1e",
-          color: "#ffffff",
-        },
-      }}
-      InputLabelProps={{
-        style: {
-          color: "#cccccc",
-        },
+      slotProps={{
+        input: { style: { color: "#ffffff", backgroundColor: "#1e1e1e" } },
+        inputLabel: { style: { color: "#cccccc" } },
       }}
     />
   );
