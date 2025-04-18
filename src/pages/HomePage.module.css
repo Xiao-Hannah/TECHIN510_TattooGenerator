@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   padding: 4rem;
   text-align: center;
   min-height: 100vh;
@@ -19,21 +18,27 @@
 .subtitle {
   font-size: 1.25rem;
   margin-bottom: 2rem;
-  width:60%;
+  width: 60%;
   color: #ccc;
 }
 
-.cta {
-  background-color: #00bcd4;
-  border: none;
-  padding: 0.75rem 2rem;
-  font-size: 1rem;
-  color: #fff;
+.dropzone {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
   cursor: pointer;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
+  margin-bottom: 200px;
 }
 
-.cta:hover {
-  background-color: #0097a7;
+.previewContainer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.previewImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
