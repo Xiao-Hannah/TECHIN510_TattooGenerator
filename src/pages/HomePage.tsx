@@ -9,7 +9,7 @@ const HomePage = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Welcome to LineCraft!</h1>
+      <h1 className={styles.title}>Welcome to TatYou.ai!</h1>
       <p className={styles.subtitle}>
         Bring your tattoo vision to life in seconds. Our AI-powered tattoo
         generator turns your ideas or reference images into stunning,
