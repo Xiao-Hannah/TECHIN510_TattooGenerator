@@ -81,8 +81,8 @@ Polish UX and address bugs.
 - Developer: Hannah Xiao, hx2313@uw.edu
 
 ## Progress Update (as of April 17)
-	•	Set up the project environment using React, TypeScript, Vite, and CSS Modules.
-	•	Created the landing page component (HomePage.tsx) and applied initial styling with HomePage.module.css.
-	•	Added a functional image upload feature that supports drag-and-drop or manual file selection.
-	•	Implemented a keyword input text box for users to describe their tattoo idea.
-	•	Wrote and styled the introductory section, including a headline and a short paragraph explaining the platform’s purpose.
+- Set up the project environment using React, TypeScript, Vite, and CSS Modules.
+- Created the landing page component (HomePage.tsx) and applied initial styling with HomePage.module.css.
+- Added a functional image upload feature that supports drag-and-drop or manual file selection.
+- Implemented a keyword input text box for users to describe their tattoo idea.
+- Wrote and styled the introductory section, including a headline and a short paragraph explaining the platform’s purpose.
