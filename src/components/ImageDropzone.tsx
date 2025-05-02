@@ -1,6 +1,6 @@
 import React, { useCallback } from "react";
 import { useDropzone } from "react-dropzone";
-import styles from "./../pages/HomePage.module.css";
+import { Box, Typography } from "@mui/material";
 
 interface Props {
   onImageUpload: (base64Image: string) => void;
@@ -25,14 +25,30 @@ const ImageDropzone: React.FC<Props> = ({ onImageUpload }) => {
   });
 
   return (
-    <div {...getRootProps()} className={styles.dropzone}>
+    <Box
+      {...getRootProps()}
+      sx={{
+        border: "2px dashed #ccc",
+        width: { xs: "90%", sm: "60%", md: "50%" },
+        padding: "130px 0",
+        textAlign: "center",
+        borderRadius: "10px",
+        margin: "20px 0",
+        cursor: "pointer",
+        backgroundColor: "rgba(255,255,255,0.03)",
+        color: "#ccc",
+        "&:hover": {
+          backgroundColor: "rgba(255,255,255,0.05)",
+        },
+      }}
+    >
       <input {...getInputProps()} />
-      {isDragActive ? (
-        <p>Drop your image here...</p>
-      ) : (
-        <p>Drag & drop a reference image here, or click to upload</p>
-      )}
-    </div>
+      <Typography variant="body1">
+        {isDragActive
+          ? "Drop your image here..."
+          : "Drag & drop a reference image here, or click to upload"}
+      </Typography>
+    </Box>
   );
 };
 
