@@ -80,9 +80,18 @@ Polish UX and address bugs.
 - Product Manager/ Client: Laura Tan, xtan0611@uw.edu
 - Developer: Hannah Xiao, hx2313@uw.edu
 
-## Progress Update (as of April 17)
+## Progress Update (as of May 2)
 - Set up the project environment using React, TypeScript, Vite, and CSS Modules.
 - Created the landing page component (HomePage.tsx) and applied initial styling with HomePage.module.css.
 - Added a functional image upload feature that supports drag-and-drop or manual file selection.
 - Implemented a keyword input text box for users to describe their tattoo idea.
 - Wrote and styled the introductory section, including a headline and a short paragraph explaining the platform’s purpose.
+- This pull request introduces the initial homepage layout for the TatTune web app. The page includes the following features:
+
+（May 2）Main header with app name and tagline.
+Three primary action buttons:
+• Text in your idea (purple)
+• Upload a photo (pink)
+• Browse Ideas (dark outline)
+Responsive, centered layout with a dark-themed background.
+Button styling consistent with the app’s design palette.
