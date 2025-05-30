@@ -15,7 +15,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
+      <Router basename="/TECHIN510_TattooGenerator">
         <Layout />
       </Router>
     </ThemeProvider>

@@ -81,7 +81,7 @@ const GalleryPage = () => {
 
       <Grid container spacing={4} justifyContent="center">
         {sampleImages.map((item, index) => (
-          <Grid key={index} size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
+          <Grid key={item.artist} size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
             <Card
               sx={{
                 borderRadius: 3,
